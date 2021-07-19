@@ -37,14 +37,4 @@ artifacts:
   - path: fmjpeg2koj-win.7z
     name: fmjpeg2koj-win
  
-deploy:
-  provider: S3
-  access_key_id:
-    secure: NoQGGjuA1OWCnB7LiTCQDw19+jVRaveK8QbFY+FSVEg=
-  secret_access_key:
-    secure: quY6Ltwn2DiEWqh48ZIFIqx50TduHHKbcRrunpiEzcRZIIsUohb5Y5viJ/TkPzUj
-  bucket: draconpern-buildcache
-  set_public: true
-  folder: 
-  artifact: fmjpeg2koj-win
  
