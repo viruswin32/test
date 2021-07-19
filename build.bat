@@ -1,3 +1,4 @@
+SET VCTargetsPath="C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160"
 SET TYPE=%CONFIGURATION%
 SET DEVSPACE=%APPVEYOR_BUILD_FOLDER%\..
 cd %DEVSPACE%
