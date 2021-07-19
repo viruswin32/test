@@ -31,6 +31,8 @@ build_script:
 after_build:
   - cd %DEVSPACE%
   - 7z a fmjpeg2koj-win.7z fmjpeg2koj\%TYPE% openjpeg\%TYPE%
+  - mv fmjpeg2koj-win.7z %APPVEYOR_BUILD_FOLDER%
 
- 
- 
+artifacts:
+  - path: fmjpeg2koj-win.7z
+    name: fmjpeg2koj-win
