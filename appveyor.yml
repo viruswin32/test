@@ -34,7 +34,7 @@ after_build:
   - mv fmjpeg2koj-win.7z %APPVEYOR_BUILD_FOLDER%
 
 artifacts:
-  - path: fmjpeg2koj-win.7z
+  - path: %DEVSPACE%\fmjpeg2koj-win.7z
     name: fmjpeg2koj-win
  
  
